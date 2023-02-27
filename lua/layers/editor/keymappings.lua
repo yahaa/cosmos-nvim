@@ -138,7 +138,7 @@ cosmos.add_leader_keymapping(
 )
 
 utils.nmap('gd', '<cmd>lua vim.lsp.buf.definition()<CR>')
-utils.nmap('gD', ':Lspsaga peek_definition<CR>')
+utils.nmap('gD', ':Lspsaga lsp_finder<CR>')
 utils.set_keymap('n', '<leader>;;', 'gcc', {})
 utils.set_keymap('v', '<leader>;', 'gcc<esc>', {})
 utils.set_keymap('t', '<A-d>', '<Esc><Cmd>exe v:count1 . "ToggleTerm"<CR>', {})

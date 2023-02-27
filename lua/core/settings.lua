@@ -25,6 +25,8 @@ g.python3_host_prog = options.python3_host_prog
 
 vim.cmd('set nocompatible')
 
+opt.foldmethod = 'indent'
+opt.foldlevelstart = 99
 opt.complete = ''
 -- opt.background = 'dark'
 vim.cmd('syntax on')
@@ -70,7 +72,7 @@ vim.api.nvim_create_autocmd('BufNewFile,BufRead', {
 -- autocmd bufnewfile,bufread *.lua set filetype=lua
 
 opt.list = true
-opt.listchars = 'tab:»·,trail:·,nbsp:·'
+--opt.listchars = 'tab:»·,trail:·,nbsp:·'
 
 opt.undofile = true
 opt.ruler = true
