@@ -137,6 +137,7 @@ cosmos.add_leader_keymapping(
   { ':lua require("layers.editor.functions").open_lua_repl()<CR>', name = 'Open Lua REPL' }
 )
 
+utils.nmap('ff', '<cmd>Telescope find_files<cr>')
 utils.nmap('gd', '<cmd>lua vim.lsp.buf.definition()<CR>')
 utils.nmap('gD', ':Lspsaga lsp_finder<CR>')
 utils.set_keymap('n', '<leader>;;', 'gcc', {})
