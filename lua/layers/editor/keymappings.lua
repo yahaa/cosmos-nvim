@@ -138,6 +138,7 @@ cosmos.add_leader_keymapping(
 )
 
 utils.nmap('ff', '<cmd>Telescope find_files<cr>')
+utils.nmap('fg', '<cmd>Telescope live_grep<cr>')
 utils.nmap('gd', '<cmd>lua vim.lsp.buf.definition()<CR>')
 utils.nmap('gD', ':Lspsaga lsp_finder<CR>')
 utils.set_keymap('n', '<leader>;;', 'gcc', {})
