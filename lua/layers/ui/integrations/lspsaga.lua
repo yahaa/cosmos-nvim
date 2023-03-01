@@ -6,7 +6,7 @@ return {
     bg = colors.darker_black,
   },
   SagaBorder = {
-    fg = colors.darker_black,
+    fg = colors.grey,
     bg = colors.darker_black,
   },
   CodeActionText = {
