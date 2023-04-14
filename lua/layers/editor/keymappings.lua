@@ -39,7 +39,6 @@ cosmos.add_leader_keymapping(
   'n|pp',
   { '<cmd>Telescope projects theme=' .. options.telescope_theme .. '<cr>', name = 'Switch project' }
 )
-cosmos.add_leader_keymapping('n|pf', { '<cmd>Telescope find_files<CR>', name = 'Find project files' })
 
 cosmos.add_leader_keymapping('n|jj', { '<cmd>HopChar1<cr>', name = 'Jump to char' })
 utils.set_keymap('v', '<leader>jj', '<cmd>HopChar1<cr>', {})
@@ -138,7 +137,6 @@ cosmos.add_leader_keymapping(
 )
 
 utils.nmap('ff', '<cmd>Telescope find_files<cr>')
-utils.nmap('fg', '<cmd>Telescope live_grep<cr>')
 utils.nmap('gd', '<cmd>lua vim.lsp.buf.definition()<CR>')
 utils.nmap('gD', ':Lspsaga lsp_finder<CR>')
 utils.set_keymap('n', '<leader>;;', 'gcc', {})

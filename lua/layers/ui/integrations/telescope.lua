@@ -3,12 +3,12 @@ local colors = require('base46').get_theme_tb('base_30')
 return {
 
   TelescopeBorder = {
-    fg = colors.darker_black,
+    fg = colors.grey,
     bg = colors.darker_black,
   },
 
   TelescopePromptBorder = {
-    fg = colors.black2,
+    fg = colors.grey,
     bg = colors.black2,
   },
 
