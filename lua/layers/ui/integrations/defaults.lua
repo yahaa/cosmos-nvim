@@ -137,7 +137,7 @@ return {
     sp = colors.green,
   },
   CursorLine = {
-    bg = colors.grey,
+    bg = colors.light_grey,
     sp = 'none',
   },
   QuickFixLine = {
